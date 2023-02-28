@@ -27,10 +27,6 @@ public class Deck {
 
     }
 
-    public String toString() {
-        return null;
-    }
-
     public void moveAllToDeck() {
 
     }
@@ -41,6 +37,10 @@ public class Deck {
 
     public int cardsValue() {
         return 0;
+    }
+
+    public String toString() {
+        return null;
     }
 
 }
