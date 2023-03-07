@@ -4,7 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="1062b5eb-70a1-45e4-af39-fe34d7d42a62" name="Changes" comment="createFullDeck() added">
+    <list default="true" id="1062b5eb-70a1-45e4-af39-fe34d7d42a62" name="Changes" comment="shuffle() added">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/Main/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Main/Main.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/Model/Deck.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Model/Deck.java" afterDir="false" />
@@ -105,7 +105,14 @@
       <option name="project" value="LOCAL" />
       <updated>1678215948656</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="shuffle() added">
+      <created>1678216688042</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1678216688042</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -125,6 +132,7 @@
     <MESSAGE value="Moved toString()" />
     <MESSAGE value="Added welcome message to main." />
     <MESSAGE value="createFullDeck() added" />
-    <option name="LAST_COMMIT_MESSAGE" value="createFullDeck() added" />
+    <MESSAGE value="shuffle() added" />
+    <option name="LAST_COMMIT_MESSAGE" value="shuffle() added" />
   </component>
 </project>
