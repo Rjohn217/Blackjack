@@ -7,8 +7,16 @@ public class Deck {
 
     List<Card> cards = new ArrayList<>();
 
-    public void createFullDeck() {
+    public Deck(List<Card> cards) {
+        this.cards = cards;
+    }
 
+    public void createFullDeck() {
+        for(Suit cardSuit: Suit.values()) {
+            for(Value cardValue: Value.values()) {
+                this.cards.add(new Card(cardValue, cardSuit));
+            }
+        }
     }
 
     public void shuffle()  {
